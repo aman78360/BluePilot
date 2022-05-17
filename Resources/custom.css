@@ -85,7 +85,7 @@ nav>div>span>a:hover{
 .c-gallary img{
     width: 200px;
     margin: 0px -3px;
-    
+    transition: 400ms;
 }
 .c-gallary img:hover{
     transition: 400ms;
