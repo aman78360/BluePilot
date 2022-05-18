@@ -63,7 +63,7 @@ nav>div>span>a:hover{
     background-color: rgb(87, 86, 86);
     color: white;
 }
-.c-inline div{  
+#courses div{  
     display: inline-block;
     vertical-align: top;
     text-align: center;
@@ -74,7 +74,7 @@ nav>div>span>a:hover{
     border-radius: 1%;
     transition: 300ms;
 }
-.c-inline div:hover{
+#courses div:hover{
     background-color: rgb(48, 47, 47);
     color: white;
 }
