@@ -63,7 +63,7 @@ nav>div>span>a:hover{
     background-color: rgb(87, 86, 86);
     color: white;
 }
-#courses div{  
+.c-inline div{  
     display: inline-block;
     vertical-align: top;
     text-align: center;
@@ -72,11 +72,11 @@ nav>div>span>a:hover{
     background-color: white;
     color: black;
     border-radius: 1%;
+    transition: 300ms;
 }
-#courses div:hover{
+.c-inline div:hover{
     background-color: rgb(48, 47, 47);
     color: white;
-    transition: 300ms;
 }
 #courses img{
     width: 250px;
@@ -88,12 +88,11 @@ nav>div>span>a:hover{
     transition: 400ms;
 }
 .c-gallary img:hover{
-    transition: 400ms;
     transform: scale(1.5);
 }
 #carousel{
     background-color: #183153;
-    padding: 35px;
+    
 }
 #carousel li{
     height: 10px;
@@ -119,8 +118,6 @@ nav>div>span>a:hover{
     background-color: burlywood;
     padding: 30px;
     border-radius: 7%;
-    margin: 10px;
-
 }
 .c-card img{
     width: 200px;
@@ -129,7 +126,7 @@ nav>div>span>a:hover{
 }
 iframe{
     width: 100%;
-    padding: 10px 20px;
+    padding: 10px;
 }
 footer{
     background-color: #183153;
