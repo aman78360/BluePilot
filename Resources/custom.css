@@ -126,12 +126,12 @@ nav>div>span>a:hover{
 }
 iframe{
     width: 100%;
-    padding: 10px;
 }
 footer{
     background-color: #183153;
     color: white;
-    padding: 30px;
+    padding-top: 30px;
+    margin-top: -7px;
 }
 #c-footer-logo{
     text-decoration: none;
@@ -149,10 +149,11 @@ footer h5{
 }
 #c-social a{
     color: white;
-    padding: 0px 5px;
+    padding: 5px 8px;
+    transition: 300ms;
 }
 #c-social a:hover{
-    transition: 300ms;
+    
     text-decoration: none;
     color: #54b5fe;
 }
