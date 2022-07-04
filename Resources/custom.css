@@ -82,12 +82,12 @@ nav>div>span>a:hover{
     width: 250px;
     margin-bottom: 10px;
 }
-.c-gallary img{
+.c-gallery img{
     width: 200px;
     margin: 0px -3px;
     transition: 400ms;
 }
-.c-gallary img:hover{
+.c-gallery img:hover{
     transform: scale(1.4);
 }
 #carousel{
